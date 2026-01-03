@@ -1,5 +1,5 @@
 import { describe, expect, test, vi } from 'vitest';
-import { Cache } from './pokecache';
+import { Cache } from '../src/pokecache';
 
 describe.each([
     { key: 'test1', value: { val: 'Test', num: 1 }, timer: 100 },
